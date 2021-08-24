@@ -6,12 +6,11 @@ import org.springframework.stereotype.Component;
 import fr.raprincis.demo.messaging.services.CommonLogging;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 import org.apache.camel.LoggingLevel;
 import org.apache.camel.builder.RouteBuilder;
 
-@Component
+//@Component
 public class TimerRoute extends RouteBuilder {
 
     @Autowired
